@@ -9,11 +9,7 @@
 display: block;
 box-shadow: 5px 7px 9px 10px black;
 }
-.img30años{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
+
 .styletext{
     font-size: 1rem;
     color: black;
