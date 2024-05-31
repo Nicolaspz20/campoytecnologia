@@ -30,9 +30,17 @@ footer{
     color: white;
     font-size: 20px;
     margin: 0 10px;
-  
     transition: color 0.3s;
   }
+  @media(min-width:360px),(max-width:700px){
+    .social-icons a{
+      color: white;
+      font-size: 20px;
+      display: block;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    }
 
   
   .social-icons a.facebook:hover{
