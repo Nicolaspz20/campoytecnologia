@@ -72,11 +72,11 @@ margin-left: 55%;
 
 
  .contenedorrevista{
-display: block;
+display: flex;
 width: 100%;
 height: auto;
-padding-top: 2%;
-margin-left: 85%;
+padding-top: 4%;
+margin-left: 37%;
 position: absolute;
  }
  .nmrrevista{
@@ -91,7 +91,7 @@ position: absolute;
     .contenedorrevista{
    padding-right: 100px;
  position: absolute;
- padding-top: 35%;
+ padding-top: 0%;
  margin-left: 15%;
  width: 100%;
  height: auto;
