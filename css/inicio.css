@@ -45,6 +45,7 @@ body{
        }
        .conteinernoa{
          margin-left: 20%;
+         padding-top: 10px;
 
        }
        @media only screen and (max-width: 600px) {
@@ -52,10 +53,12 @@ body{
             max-width: 450px;
             max-height: 100px;
             padding-right:0%;
-           height: 100px;
+           height: 200px;
            width: 420px;
-          padding-top: 30px;
+          padding-top: 35px;
               padding-right: 0%;
+              border-radius: 2;
+           
        }
        }
        
