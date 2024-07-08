@@ -17,6 +17,25 @@ body{
           border-radius: 5px;
           box-shadow:  5px 6px 8px 10px rgb(0, 78, 109) ;
        }
+
+       .likwsp{
+        position: absolute;
+        margin-left: 85%;
+        padding-top:39%;
+        font-size: 25px;
+        color: red;
+
+       }
+       @media only screen and (max-width: 600px) {
+        .likwsp {
+        
+        margin-left: 33%;
+        padding-top:38%;
+        font-size:10px;
+        color: red;
+     }
+     }
+
        .conteiner-logo{
        height: 90%;
        width: 100%;
