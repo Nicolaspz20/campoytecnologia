@@ -83,12 +83,34 @@ margin-left: 0%;
 position: relative;
  }
  .nmrrevista{
-    background: linear-gradient(#033683,#002b7a,#0139d3);
-    font-size:40px;
-    
-    -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+    font-size: 40px;
+  font-weight: bold;
+  color: #33ccff; /* Color principal */
+  text-shadow: 0 0 10px #66ffff, 0 0 20px #99ffff; /* Sombra de texto */
+  animation:nmrevista 2s infinite; /* Animación */
+  text-shadow: 0 0 10px rgb(3, 76, 124),
+  0 0 20px rgb(3, 76, 124),
+  0 0 40px rgb(3, 76, 124),
+  0 0 80px rgb(3, 76, 124),
+  0 0 160px rgb(3, 76, 124),
+  0 0 320px rgb(3, 76, 124);
   
+ }
+ @keyframes nmrevista {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+ .nmrrevista:hover{
+    color: aqua;
+
+   
  }
 
  @media(max-width:600px){
