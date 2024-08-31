@@ -80,5 +80,32 @@ body{
      padding-right: 0%;
        }
        }
+       .ilustrasionesyvideos{
+        font-size: 26px;
+      font-weight: bold;
+      color: #003879; /* Color principal */
+      text-shadow: 0 0 10px #66ffff, 0 0 20px #99ffff; /* Sombra de texto */
+      animation:nmrevista 2s infinite; /* Animación */
+      text-shadow: 0 0 10px rgb(4, 98, 185),
+      0 0 20px rgb(4, 98, 185),
+      0 0 40px rgb(4, 98, 185),
+      0 0 80px rgb(4, 98, 185),
+      0 0 160px rgb(4, 98, 185),
+      0 0 320px rgb(4, 98, 185);
+      
+     }
+     @keyframes nmrevista {
+        0% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(10px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+       
 
       
