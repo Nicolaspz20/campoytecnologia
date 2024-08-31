@@ -5,10 +5,15 @@ footer{
     position: absolute;
     width: 100%;
    
-   
-    
   }
   
+  .fin{
+    position: relative;
+    color:#00a6cf;
+    padding-top: 7% !important;
+    bottom: 25px;
+    font-size: 20px;
+}
   .about-us{
     margin-top:20px;
   }
