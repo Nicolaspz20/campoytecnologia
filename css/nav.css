@@ -83,9 +83,9 @@ margin-left: 0%;
 position: relative;
  }
  .nmrrevista{
-    font-size: 40px;
+    font-size: 33px;
   font-weight: bold;
-  color: #33ccff; /* Color principal */
+  color: #00bfff; /* Color principal */
   text-shadow: 0 0 10px #66ffff, 0 0 20px #99ffff; /* Sombra de texto */
   animation:nmrevista 2s infinite; /* Animación */
   text-shadow: 0 0 10px rgb(3, 76, 124),
