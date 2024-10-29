@@ -11,11 +11,12 @@
 .navegador{
     padding-top: 10px;
     background-color: rgb(4, 209, 216) !important;
+   
     box-shadow: 5px 5px 30px;
     border-radius: 2px;
     width: 100% !important;
     
-    color: black !important;
+    color: rgb(2, 2, 2) !important;
     z-index: 10000 !important;
 }
 .navegador1:hover{
@@ -71,12 +72,11 @@ margin-left: 55%;
 
  }
 
- 
 
  .contenedorrevista{
 
 width: 100%;
-height: 100px !important;
+height: 85px !important;
 background-color: rgb(0, 255, 255) ;
 
 margin-left: 0%;
@@ -85,18 +85,29 @@ position: relative;
  .nmrrevista{
     font-size: 33px;
   font-weight: bold;
-  color: #00bfff; /* Color principal */
+  color: #000000c5; /* Color principal */
   text-shadow: 0 0 10px #66ffff, 0 0 20px #99ffff; /* Sombra de texto */
   animation:nmrevista 2s infinite; /* Animación */
   text-shadow: 0 0 10px rgb(3, 76, 124),
-  0 0 20px rgb(3, 76, 124),
-  0 0 40px rgb(3, 76, 124),
-  0 0 80px rgb(3, 76, 124),
-  0 0 160px rgb(3, 76, 124),
-  0 0 320px rgb(3, 76, 124);
-  
- }
- @keyframes nmrevista {
+  0 0 20px rgb(4, 92, 150),
+  0 0 40px rgb(4, 130, 215),
+  0 0 80px rgb(18, 152, 241),
+  0 0 160px rgb(43, 167, 250),
+  0 0 320px rgb(45, 162, 239);
+
+}
+
+.nmrevista span { animation-name:nmrevista }
+@keyframes nmrevista {
+  from {
+    transform: perspective(600px) translate3d(0, -60px, -2000px) rotateY(45deg);
+    opacity: 0
+}
+5% { transform: perspective(600px) translate3d(0, -60px, -1500px) rotateY(45deg) }
+}
+
+ 
+/* @keyframes nmrevista {
     0% {
       transform: translateX(0);
     }
@@ -111,7 +122,8 @@ position: relative;
     color: aqua;
 
    
- }
+ }*/
+
 
  @media(max-width:600px){
     .contenedorrevista{

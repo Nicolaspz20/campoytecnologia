@@ -79,6 +79,7 @@ footer{
 
   .campytec{
     width: 200px;
+    filter: drop-shadow(10px 8px 6px rgba(255, 251, 251, 0.633) );
   }
   
 
@@ -86,7 +87,7 @@ footer{
     position:absolute;
     top: 50%;
     left: 50% ;
-    transform: translateY(-50%);
+  
 }
 h1{
     color: white;
@@ -103,7 +104,9 @@ h4{
     color: rgba(92, 181, 245, 0.8);
     letter-spacing: 2px;
     font-size: 20px;
+
 }
+
 .datos form{
   width: 300px;
   max-width: 100%;
@@ -194,7 +197,14 @@ border: 2px solid #00a6cf;
       font-size: 16px;
     }
   
-    .about-us p {
-      font-size: 12px;
+
+  }
+.campytec { animation-name: campoytec }
+@keyframes campytec{
+    from {
+        transform: translateX(100%);
+        filter: blur(20px);
+        opacity: 0;
     }
   }
+  
