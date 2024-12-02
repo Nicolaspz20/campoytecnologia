@@ -107,7 +107,9 @@ position: relative;
 }
 
  
-/* @keyframes nmrevista {
+/*
+ESTILO Nmrevista
+@keyframes nmrevista {
     0% {
       transform: translateX(0);
     }
