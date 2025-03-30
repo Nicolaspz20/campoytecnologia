@@ -86,7 +86,7 @@ position: relative;
     font-size: 33px;
   font-weight: bold;
   color: #000000c5; /* Color principal */
-  text-shadow: 0 0 10px #66ffff, 0 0 20px #99ffff; /* Sombra de texto */
+  text-shadow: 0 0 10px #014d80, 0 0 20px #008cff; /* Sombra de texto */
   animation:nmrevista 2s infinite; /* Animación */
   text-shadow: 0 0 10px rgb(3, 76, 124),
   0 0 20px rgb(4, 92, 150),
